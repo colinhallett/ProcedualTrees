@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6915811847057983839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6915811847057983837}
+  - component: {fileID: 6915811847057983836}
+  m_Layer: 0
+  m_Name: Bush
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6915811847057983837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915811847057983839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6915811847057983836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915811847057983839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c59edd6a29842c484be28d38bbaede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setStatic: 0
+  growOnPlay: 1
+  instant: 0
+  drawTime: 0.01
+  growTime: 3
+  startScale: 1
+  angleIterationAffect: -16.17
+  inheritScale: 0
+  axiom: XF
+  iterations: 3
+  rules:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 46005800
+    _keys: 46005800
+    _values:
+    - F [s & + FL] FL [s - > F][s- > FL][s& F]L
+    - BB
+  implementation:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 46004c005b005d005300730026002b003e002d004200
+    _keys: 46004c005b005d005300730026002b003e002d004200
+    _values:
+    - {fileID: 2312808687580158046, guid: e71ec94da866b449fb69427f58f8b02b, type: 3}
+    - {fileID: 142847238592127001, guid: 63bf74e8a626044b9aa30a6c01f12e83, type: 3}
+    - {fileID: 850077607556032685, guid: 5cee626ca63ad4094948472985b269a7, type: 3}
+    - {fileID: 5673311854365458943, guid: 76a7c454376f04868b25ad7ce69600f6, type: 3}
+    - {fileID: 8728265700168252862, guid: d1ebb906fd70f4138b1027b4c4a163c5, type: 3}
+    - {fileID: 8728265700168252862, guid: 4f0da6ca8dd344315814a389a04b32df, type: 3}
+    - {fileID: 5379808333399756675, guid: b80e2fa02237249ee8dc8bd5e8c70ff9, type: 3}
+    - {fileID: 5379808333399756675, guid: d1ee2a6b593494376a6156cae9149358, type: 3}
+    - {fileID: 5379808333399756675, guid: ddd30ce01c75f473dbf5c530472071ff, type: 3}
+    - {fileID: 5379808333399756675, guid: d8707de4f4b904e9cb51c51ce2f213d2, type: 3}
+    - {fileID: 2312808687580158046, guid: e71ec94da866b449fb69427f58f8b02b, type: 3}

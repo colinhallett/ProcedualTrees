@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1962296155151478943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962296155151478937}
+  - component: {fileID: 1962296155151478942}
+  m_Layer: 0
+  m_Name: LeafSeed3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1962296155151478937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962296155151478943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962296155151478942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962296155151478943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c59edd6a29842c484be28d38bbaede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  setStatic: 0
+  growOnPlay: 1
+  instant: 1
+  drawTime: 0.1
+  growTime: 20
+  startScale: 1
+  angleIterationAffect: 5
+  axiom: F
+  iterations: 3
+  rules:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 4600
+    _keys: 4600
+    _values:
+    - FF[+FF][-FF]F[-F][+F]F
+  implementation:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 46002b002d005b005d004c00
+    _keys: 46002b002d005b005d004c00
+    _values:
+    - {fileID: 3013744837710875251, guid: e62abf030f1d54d1fb432d0460c440da, type: 3}
+    - {fileID: 5379808333399756675, guid: ddd30ce01c75f473dbf5c530472071ff, type: 3}
+    - {fileID: 5379808333399756675, guid: 6f8ba7ee39aa04bbe94a073f34659a6c, type: 3}
+    - {fileID: 850077607556032685, guid: 5cee626ca63ad4094948472985b269a7, type: 3}
+    - {fileID: 5673311854365458943, guid: 76a7c454376f04868b25ad7ce69600f6, type: 3}
+    - {fileID: 8053558308572617196, guid: 38da36652f2954fa8bef2bcb967262b9, type: 3}
